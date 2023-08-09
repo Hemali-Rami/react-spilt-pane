@@ -33,6 +33,7 @@ const handleSplitPaneSizeChange = (newSize) => {
         // defaultSize="50%"
         size={splitPaneSize}
         onChange={handleSplitPaneSizeChange}
+        maxSize={-200} //stop spilter going outside
       >
         <div className="paraone">
           Lorem Ipsum is simply dummy text of the printing and typesetting
